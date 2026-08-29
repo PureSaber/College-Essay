@@ -1,4 +1,4 @@
-name: Validate catalog
+name: Validate essay catalogs
 
 on:
   push:
@@ -16,9 +16,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate structured data
+
+      - name: Validate undergraduate catalog
         run: python scripts/validate.py
-      - name: Rebuild human-readable index
+      - name: Validate graduate catalog
+        run: python scripts/validate_graduate.py
+
+      - name: Rebuild undergraduate index
         run: python scripts/build_index.py
+      - name: Rebuild graduate index
+        run: python scripts/build_graduate_index.py
+
       - name: Ensure generated files are committed
-        run: git diff --exit-code -- docs/case-notes.md
+        run: git diff --exit-code -- docs/case-notes.md docs/graduate-case-notes.md
