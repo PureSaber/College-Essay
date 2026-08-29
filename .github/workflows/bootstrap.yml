@@ -44,7 +44,7 @@ jobs:
           done
           echo "ready=true" >> "$GITHUB_OUTPUT"
 
-      - name: Restore, validate, and commit repository
+      - name: Restore, validate, and commit repository content
         if: steps.archive.outputs.ready == 'true'
         shell: bash
         run: |
@@ -87,11 +87,16 @@ jobs:
 
           echo "7f21a035ad2ba4bb5da9cf607590449f896d66a0943504f25ce4eebaa8a83b63  /tmp/college-essay-repo.tar.gz" | sha256sum --check --strict
           tar -xzf /tmp/college-essay-repo.tar.gz -C .
-          rm -rf .bootstrap .github/workflows/bootstrap.yml
 
           python scripts/validate.py
           python scripts/build_index.py
           git diff --exit-code -- docs/case-notes.md
+
+          # A workflow token cannot create/delete workflow files. Keep this
+          # bootstrap workflow unchanged and let the repository connector swap
+          # it for the permanent validation workflow after content is pushed.
+          rm -rf .bootstrap
+          rm -f .github/workflows/validate.yml
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
