@@ -1,0 +1,62 @@
+name: Bootstrap graduate essay catalog
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".graduate-bootstrap/**"
+      - ".github/workflows/graduate-bootstrap.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootstrap-graduate-essay-catalog
+  cancel-in-progress: true
+
+jobs:
+  restore-and-generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check archive parts
+        id: archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected=(
+            .graduate-bootstrap/catalog.tar.gz.b64.part-00
+            .graduate-bootstrap/catalog.tar.gz.b64.part-01
+            .graduate-bootstrap/catalog.tar.gz.b64.part-02
+            .graduate-bootstrap/catalog.tar.gz.b64.part-03
+          )
+          for part in "${expected[@]}"; do
+            if [[ ! -f "$part" ]]; then
+              echo "ready=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+          echo "ready=true" >> "$GITHUB_OUTPUT"
+
+      - name: Restore catalog, validate, generate index and commit
+        if: steps.archive.outputs.ready == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .graduate-bootstrap/catalog.tar.gz.b64.part-* \
+            | base64 --decode > /tmp/graduate-catalog.tar.gz
+          echo "a1f63e799cb67ff62db8fb8f05c440b962be1388384e74b2a195f8402b4b3b85  /tmp/graduate-catalog.tar.gz" \
+            | sha256sum --check --strict
+          tar -xzf /tmp/graduate-catalog.tar.gz -C .
+
+          python scripts/validate_graduate.py
+          python scripts/build_graduate_index.py
+          rm -rf .graduate-bootstrap
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: import graduate essay catalog and generated index"
+          git push origin HEAD:main
