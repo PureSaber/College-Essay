@@ -1,0 +1,65 @@
+name: Bootstrap curated essay repository
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".bootstrap/**"
+      - ".github/workflows/bootstrap.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootstrap-curated-essay-repository
+  cancel-in-progress: true
+
+jobs:
+  unpack-and-commit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check whether all archive parts are present
+        id: archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected=(
+            .bootstrap/repo.tar.gz.b64.part-00
+            .bootstrap/repo.tar.gz.b64.part-01
+            .bootstrap/repo.tar.gz.b64.part-02
+            .bootstrap/repo.tar.gz.b64.part-03
+            .bootstrap/repo.tar.gz.b64.part-04
+            .bootstrap/repo.tar.gz.b64.part-05
+          )
+          for part in "${expected[@]}"; do
+            if [[ ! -f "$part" ]]; then
+              echo "ready=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+          echo "ready=true" >> "$GITHUB_OUTPUT"
+
+      - name: Restore, validate, and commit repository
+        if: steps.archive.outputs.ready == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .bootstrap/repo.tar.gz.b64.part-* | base64 --decode > /tmp/college-essay-repo.tar.gz
+          echo "7f21a035ad2ba4bb5da9cf607590449f896d66a0943504f25ce4eebaa8a83b63  /tmp/college-essay-repo.tar.gz" | sha256sum --check --strict
+          tar -xzf /tmp/college-essay-repo.tar.gz -C .
+          rm -rf .bootstrap .github/workflows/bootstrap.yml
+
+          python scripts/validate.py
+          python scripts/build_index.py
+          git diff --exit-code -- docs/case-notes.md
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: add curated Hong Kong and Singapore essay corpus"
+          git push origin HEAD:main
