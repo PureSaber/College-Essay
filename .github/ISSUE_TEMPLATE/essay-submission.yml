@@ -1,0 +1,95 @@
+name: 文书案例提交
+description: 提交公开来源、作者授权全文或现有记录的证据补充
+title: "[Essay source] "
+body:
+  - type: dropdown
+    id: university
+    attributes:
+      label: 学校
+      options:
+        - HKU
+        - HKUST
+        - CUHK
+        - NUS
+        - NTU
+        - 多校
+    validations:
+      required: true
+
+  - type: dropdown
+    id: record_type
+    attributes:
+      label: 来源类型
+      options:
+        - 录取者一手案例
+        - 学校官方材料
+        - 匿名社区经验
+        - 视频逐段讲解
+        - 作者本人授权全文
+        - 现有记录证据补充
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: 原始公开链接
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: input
+    id: route
+    attributes:
+      label: 申请路径与年份
+      description: 例如 2026 international undergraduate、Non-JUPAS、ABA、MBBS
+    validations:
+      required: true
+
+  - type: input
+    id: program
+    attributes:
+      label: 专业 / 项目
+      placeholder: 未知时写 unknown
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 录取 / 奖学金结果及证据
+      description: 说明是作者自述、学校官方展示、脱敏 offer 图片还是无法核验
+    validations:
+      required: true
+
+  - type: textarea
+    id: essay_details
+    attributes:
+      label: 文书题目、主题、结构或修改过程
+      description: 请用自己的话概括，不要粘贴未经授权的完整文书
+    validations:
+      required: true
+
+  - type: dropdown
+    id: rights
+    attributes:
+      label: 版权状态
+      options:
+        - 仅公开链接；没有全文转载授权
+        - 我是原作者，并同意 CC BY 4.0 发布
+        - 原文带兼容开放许可证
+        - 不确定，需要维护者核验
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 确认
+      options:
+        - label: 我没有提交付费盗版、泄露材料或未经授权的整篇转载
+          required: true
+        - label: 我已删除申请号、联系方式、地址等个人敏感信息
+          required: true
+        - label: 我理解仓库策展分数不是大学官方评分
+          required: true

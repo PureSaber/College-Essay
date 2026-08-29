@@ -1,0 +1,888 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-08-29",
+  "scope": {
+    "regions": [
+      "Hong Kong",
+      "Singapore"
+    ],
+    "priority_universities": [
+      "HKU",
+      "HKUST",
+      "CUHK",
+      "NUS",
+      "NTU"
+    ],
+    "degree_levels": [
+      "undergraduate"
+    ],
+    "full_text_policy": "No third-party full essay is mirrored without an explicit compatible license or author permission."
+  },
+  "records": [
+    {
+      "id": "hku-architecture-full-tuition-2025",
+      "record_type": "admitted_case",
+      "universities": [
+        "HKU"
+      ],
+      "primary_university": "HKU",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "international",
+      "program": "Architecture",
+      "intake_year": 2025,
+      "outcome": "admitted_with_scholarship",
+      "scholarship": "Full-tuition scholarship",
+      "evidence_tier": "B+",
+      "quality_score": 94,
+      "featured": true,
+      "essay_format": [
+        "personal_statement",
+        "portfolio_alignment"
+      ],
+      "source": {
+        "title": "From the Caspian dream to Victorian Harbour realities: My Journey to HKU in Hong Kong",
+        "url": "https://borderless.so/stories/from-the-caspian-dream-to-victorian-harbour-realities-my-journey-to-hku-in-hong-kong",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "建筑申请者以“家”这一具体空间感受切入，再把个人观察连接到建筑学动机，并让文书主题与作品集最后一页形成呼应；公开结果为 HKU 建筑学录取及全额学费奖学金。",
+      "strengths": [
+        "用一个可感知的核心意象建立记忆点，而不是泛泛谈城市或排名",
+        "从个人体验迅速转入学术兴趣，保持港校偏学术的语气",
+        "文书与作品集互相验证，形成跨材料的一致叙事"
+      ],
+      "limitations": [
+        "来源没有公开完整文书",
+        "录取结果不能证明文书单独决定结果"
+      ],
+      "tags": [
+        "architecture",
+        "academic_motivation",
+        "portfolio",
+        "full_tuition",
+        "international"
+      ]
+    },
+    {
+      "id": "hku-physics-math-full-tuition",
+      "record_type": "admitted_case",
+      "universities": [
+        "HKU"
+      ],
+      "primary_university": "HKU",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "international",
+      "program": "Physics / Mathematics-related study",
+      "intake_year": null,
+      "outcome": "admitted_with_scholarship",
+      "scholarship": "Full-tuition scholarship",
+      "evidence_tier": "B+",
+      "quality_score": 88,
+      "featured": true,
+      "essay_format": [
+        "personal_statement"
+      ],
+      "source": {
+        "title": "My Journey from Pakistan to Hong Kong: A New Beginning",
+        "url": "https://borderless.so/stories/my-journey-from-pakistan-to-hong-kong-a-new-beginning",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "申请叙事围绕物理与数学兴趣、实际探索过程和从学术及非学术活动中获得的认识展开，同时加入社区建设经历，用于补足申请者的公共性与完整度；公开结果为 HKU 录取及全额学费奖学金。",
+      "strengths": [
+        "主线明确，学术兴趣不是一句自我评价，而由探索过程支撑",
+        "将非学术经历写成能力和价值观证据，而不是活动清单",
+        "兼顾专业准备与社区贡献"
+      ],
+      "limitations": [
+        "来源只概述主题，没有给出完整结构或逐段文本",
+        "具体入学年份与专业名称在可访问段落中不够明确"
+      ],
+      "tags": [
+        "physics",
+        "mathematics",
+        "community",
+        "full_tuition",
+        "international"
+      ]
+    },
+    {
+      "id": "hkust-russia-full-tuition-baas",
+      "record_type": "admitted_case",
+      "universities": [
+        "HKUST",
+        "CUHK"
+      ],
+      "primary_university": "HKUST",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "international",
+      "program": "Bioengineering-oriented application",
+      "intake_year": null,
+      "outcome": "admitted_with_scholarship",
+      "scholarship": "HKUST full tuition plus HKD 50,000 Beyond Academic Admissions Scholarship; CUHK admission without scholarship",
+      "evidence_tier": "B+",
+      "quality_score": 96,
+      "featured": true,
+      "essay_format": [
+        "motivation_letter",
+        "scholarship_essay",
+        "activity_descriptions"
+      ],
+      "source": {
+        "title": "From Russia to Hong Kong: My 2-Year Journey to Finding the Perfect University",
+        "url": "https://borderless.so/stories/from-russia-to-hong-kong-my-2-year-journey-to-finding-the-perfect-university",
+        "platform": "Borderless",
+        "source_type": "first_person_interview_with_outcome_images",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "申请者第二年彻底重写主文书，把经历、目标、大学阶段计划和长期志向串成同一条因果链；在 HKUST BAAS 奖学金材料中，则用两个健康相关项目证明其核心能力是组建高效团队并改善他人健康。",
+      "strengths": [
+        "通过前后两轮申请对比，清楚展示“活动堆砌”与“目标一致性”的差别",
+        "奖学金文书以明确能力命题统领多个项目",
+        "用可量化项目结果支撑领导力和社会影响",
+        "有 HKUST 全额学费与 BAAS、CUHK 录取结果作为较强结果证据"
+      ],
+      "limitations": [
+        "主文书全文未公开",
+        "同一材料横跨 HKUST 与 CUHK，不能推断两校审阅偏好完全相同"
+      ],
+      "tags": [
+        "bioengineering",
+        "health",
+        "leadership",
+        "baas",
+        "full_tuition",
+        "reapplication"
+      ]
+    },
+    {
+      "id": "hkust-nigeria-full-ride-impact-statement",
+      "record_type": "admitted_case",
+      "universities": [
+        "HKUST"
+      ],
+      "primary_university": "HKUST",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "international_second_chance",
+      "program": "Undeclared / science-oriented",
+      "intake_year": 2024,
+      "outcome": "admitted_with_scholarship",
+      "scholarship": "Full scholarship covering tuition, accommodation and living expenses",
+      "evidence_tier": "B+",
+      "quality_score": 94,
+      "featured": true,
+      "essay_format": [
+        "personal_statement",
+        "impact_statement"
+      ],
+      "source": {
+        "title": "Second Chance: From Nigeria to Hong Kong with a full scholarship",
+        "url": "https://borderless.so/stories/second-chance-from-nigeria-to-hong-kong-with-a-full-scholarship",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "申请者把两份材料分工：impact statement 负责呈现学术与课外成果，personal statement 负责解释课程动机，并聚焦疫苗生产、制药和科研兴趣；公开结果为覆盖学费、住宿与生活费的奖学金。",
+      "strengths": [
+        "不同文书各自承担单一任务，避免重复",
+        "专业兴趣具体到疫苗、制药和研究，而非笼统的“热爱科学”",
+        "高强度成果与明确动机相互补强"
+      ],
+      "limitations": [
+        "属于 Second Chance 特定申请安排，文书组件可能不同于常规申请",
+        "没有公开完整文本"
+      ],
+      "tags": [
+        "science",
+        "vaccines",
+        "pharmaceuticals",
+        "research",
+        "impact_statement",
+        "full_ride"
+      ]
+    },
+    {
+      "id": "hkust-almaty-cs-econ-scholarship-ps",
+      "record_type": "admitted_case",
+      "universities": [
+        "HKUST"
+      ],
+      "primary_university": "HKUST",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "international",
+      "program": "Computer Science and Economics",
+      "intake_year": null,
+      "outcome": "admitted",
+      "scholarship": "Separate scholarship personal statement discussed; award details not stated in the accessible excerpt",
+      "evidence_tier": "B",
+      "quality_score": 90,
+      "featured": true,
+      "essay_format": [
+        "personal_statement",
+        "scholarship_personal_statement"
+      ],
+      "source": {
+        "title": "From Almaty to HKUST: Sabina’s Journey to Studying Computer Science and Economics in Hong Kong",
+        "url": "https://borderless.so/stories/from-almaty-to-hkust-sabina-s-journey-to-studying-computer-science-and-economics-in-hong-kong",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": "2026-06-30"
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "主文书采取直接、正式的动机信结构：我是谁、为什么选择 HKUST、为什么选择目标专业；奖学金文书再利用经济学竞赛、跨校创业项目等经历展示学业之外的个性和实践能力。",
+      "strengths": [
+        "结构高度适配港校专业导向申请",
+        "主申请与奖学金申请分层表达",
+        "跨学科专业选择由经济学与计算机实践共同支撑"
+      ],
+      "limitations": [
+        "来源未公开完整文书",
+        "奖学金最终结果在可访问段落中不够明确"
+      ],
+      "tags": [
+        "computer_science",
+        "economics",
+        "startup",
+        "olympiad",
+        "scholarship"
+      ]
+    },
+    {
+      "id": "cuhk-full-scholarship-offer-daniya",
+      "record_type": "outcome_reference",
+      "universities": [
+        "CUHK"
+      ],
+      "primary_university": "CUHK",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "school_nomination_international",
+      "program": null,
+      "intake_year": 2023,
+      "outcome": "admitted_with_scholarship",
+      "scholarship": "Full tuition plus an additional scholarship",
+      "evidence_tier": "C+",
+      "quality_score": 70,
+      "featured": false,
+      "essay_format": [
+        "not_disclosed"
+      ],
+      "source": {
+        "title": "My Journey to a Full Scholarship at Minerva University",
+        "url": "https://borderless.so/stories/my-journey-to-a-full-scholarship-at-minerva-university",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": "2023-10-06"
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "metadata_and_outcome_reference_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "该来源确认申请者通过学校提名申请 CUHK，并获得全额学费及额外奖学金，但没有披露 CUHK 文书内容；因此仅作为结果样本，不作为可直接模仿的高质量文书案例。",
+      "strengths": [
+        "有明确且较强的录取与奖学金结果",
+        "提示学校提名路径可能存在单独材料和筛选逻辑"
+      ],
+      "limitations": [
+        "没有任何可用的 CUHK 文书细节",
+        "不能据此评价具体写法"
+      ],
+      "tags": [
+        "full_tuition",
+        "school_nomination",
+        "outcome_only"
+      ]
+    },
+    {
+      "id": "cuhk-admitted-community-academic-ps",
+      "record_type": "community_advice",
+      "universities": [
+        "CUHK"
+      ],
+      "primary_university": "CUHK",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "unspecified",
+      "program": null,
+      "intake_year": null,
+      "outcome": "self_reported_admitted",
+      "scholarship": null,
+      "evidence_tier": "C",
+      "quality_score": 78,
+      "featured": false,
+      "essay_format": [
+        "personal_statement",
+        "separate_short_essay"
+      ],
+      "source": {
+        "title": "writing an essay for cuhk",
+        "url": "https://www.reddit.com/r/cuhk/comments/1ocuhlb/writing_an_essay_for_cuhk/",
+        "platform": "Reddit",
+        "source_type": "anonymous_community_thread",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "paraphrase_and_link_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "一名自述上一年获录取的回复者建议：以学术方式解释专业热情，用个人经历和相关课外活动证明兴趣，再写希望从该领域获得什么，以及 CUHK 的具体匹配点；不必依赖悲情故事或戏剧化名句。",
+      "strengths": [
+        "结构符合 CUHK 以具体专业为中心的申请逻辑",
+        "把“为何专业”“做过什么”“为何 CUHK”串联起来",
+        "明确反对为了煽情而煽情"
+      ],
+      "limitations": [
+        "匿名自述，录取结果无法独立核验",
+        "讨论中还提到一个 300 字独立题目，可能只适用于特定轮次或项目"
+      ],
+      "tags": [
+        "academic_style",
+        "major_fit",
+        "why_cuhk",
+        "community"
+      ]
+    },
+    {
+      "id": "hku-cuhk-public-ps-walkthrough-video",
+      "record_type": "public_walkthrough",
+      "universities": [
+        "HKU",
+        "CUHK"
+      ],
+      "primary_university": "CUHK",
+      "region": "Hong Kong",
+      "degree_level": "undergraduate",
+      "application_route": "unspecified",
+      "program": null,
+      "intake_year": null,
+      "outcome": "not_independently_verified",
+      "scholarship": null,
+      "evidence_tier": "D+",
+      "quality_score": 66,
+      "featured": false,
+      "essay_format": [
+        "personal_statement_video_walkthrough"
+      ],
+      "source": {
+        "title": "My HKU & CUHK Personal Statement | Tips and Tricks",
+        "url": "https://www.youtube.com/watch?v=-B70-8VdSZ0",
+        "platform": "YouTube",
+        "source_type": "public_video",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_only_until_outcome_and_permission_verified",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "公开视频以 HKU 与 CUHK 个人陈述为主题，可能包含逐段讲解；由于当前公开元数据不足以独立确认录取结果与文本授权，仓库仅保留导航信息，不将其列为高置信度范文。",
+      "strengths": [
+        "学校针对性强",
+        "视频形式可能比静态模板更能解释修改思路"
+      ],
+      "limitations": [
+        "录取结果和原文授权尚未核验",
+        "视频内容可能随平台下架"
+      ],
+      "tags": [
+        "video",
+        "walkthrough",
+        "unverified",
+        "hku",
+        "cuhk"
+      ]
+    },
+    {
+      "id": "nus-real-estate-direct-offer-2023",
+      "record_type": "admitted_case",
+      "universities": [
+        "NUS"
+      ],
+      "primary_university": "NUS",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "polytechnic",
+      "program": "Real Estate",
+      "intake_year": 2023,
+      "outcome": "admitted_direct_offer",
+      "scholarship": null,
+      "evidence_tier": "B+",
+      "quality_score": 97,
+      "featured": true,
+      "essay_format": [
+        "mandatory_short_responses"
+      ],
+      "source": {
+        "title": "My NUS essays that landed me my dream course",
+        "url": "https://www.lemon8-app.com/@ioxol_miffy/7225566503213597185?region=sg",
+        "platform": "Lemon8",
+        "source_type": "first_person_post_with_sample_responses",
+        "published_at": "2023-04-24"
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "申请者公开了 NUS 短答题及回答，并称获得 Real Estate 第一志愿直接录取。核心写法是把 GIS、Python、QGIS、商业分析课程和实习准备连成清晰职业方向；失败题则具体写从依赖讲稿到主动索取反馈、拆解演讲技巧并反复练习的改变过程。",
+      "strengths": [
+        "公开材料细节足，能观察题目与回答之间的对应关系",
+        "专业准备由工具、课程、项目和实习共同证明",
+        "失败题写清初始状态、反馈来源、方法改变和结果",
+        "结果为第一志愿直接录取"
+      ],
+      "limitations": [
+        "作者关于文书作用的判断是个人推测",
+        "2023 题目不应当作未来年度固定题目"
+      ],
+      "tags": [
+        "real_estate",
+        "gis",
+        "short_answers",
+        "direct_offer",
+        "polytechnic",
+        "failure_reflection"
+      ]
+    },
+    {
+      "id": "nus-cs-goals-social-impact",
+      "record_type": "admitted_case",
+      "universities": [
+        "NUS"
+      ],
+      "primary_university": "NUS",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "international",
+      "program": "Computer Science",
+      "intake_year": null,
+      "outcome": "admitted",
+      "scholarship": null,
+      "evidence_tier": "B+",
+      "quality_score": 91,
+      "featured": true,
+      "essay_format": [
+        "mandatory_short_responses"
+      ],
+      "source": {
+        "title": "From Medical School in the UK to Singapore’s Number 1 University: How I ended up at NUS",
+        "url": "https://borderless.so/stories/from-medical-school-in-the-uk-to-singapores-number-1-university-how-i-ended-up-at-nus",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "录取者描述当年需回答五个直接短题，主要围绕人生目标和为兴趣所做的准备；她把计算机科学与帮助资源不足人群的长期目标连接起来，使专业选择不仅是“喜欢编程”，而是服务于清晰的问题方向。",
+      "strengths": [
+        "未来目标、专业选择和既有服务经历方向一致",
+        "短答风格直接，适合新加坡申请的有限字数",
+        "经历从医学转向计算机，反思路径具有真实张力"
+      ],
+      "limitations": [
+        "没有逐题公开完整回答",
+        "申请年份不明确，题目数量可能已更新"
+      ],
+      "tags": [
+        "computer_science",
+        "social_impact",
+        "career_goal",
+        "short_answers",
+        "international"
+      ]
+    },
+    {
+      "id": "nus-engineering-challenge-resilience",
+      "record_type": "admitted_case",
+      "universities": [
+        "NUS"
+      ],
+      "primary_university": "NUS",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "international",
+      "program": "Engineering",
+      "intake_year": null,
+      "outcome": "admitted",
+      "scholarship": "MOE Tuition Grant discussed; not an admissions scholarship",
+      "evidence_tier": "B",
+      "quality_score": 85,
+      "featured": true,
+      "essay_format": [
+        "mandatory_short_responses"
+      ],
+      "source": {
+        "title": "From India to Singapore: An International student studying Engineering at the Top Singapore University",
+        "url": "https://borderless.so/stories/from-india-to-singapore-an-international-student-studying-engineering-at-the-top-singapore-university",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "申请者将 NUS 文书描述为短答题，例如挑战、失败后的调整或韧性；她建议复用其他国家申请中的素材，但必须重构为短、直接、与题目严格对应的回答，并用企业观察经历解释为何选择具体工程方向。",
+      "strengths": [
+        "区分“复用素材”与“照搬旧文书”",
+        "通过 shadowing 形成专业选择，而非事后包装",
+        "适合学习有限字数下的题目对齐"
+      ],
+      "limitations": [
+        "作者认为短答权重低于成绩，这是个人观察而非官方结论",
+        "没有公开完整答案"
+      ],
+      "tags": [
+        "engineering",
+        "resilience",
+        "challenge",
+        "shadowing",
+        "short_answers"
+      ]
+    },
+    {
+      "id": "nus-international-nusc-interdisciplinary",
+      "record_type": "admitted_case",
+      "universities": [
+        "NUS"
+      ],
+      "primary_university": "NUS",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "international",
+      "program": "NUS undergraduate plus NUS College",
+      "intake_year": null,
+      "outcome": "admitted",
+      "scholarship": null,
+      "evidence_tier": "B",
+      "quality_score": 83,
+      "featured": false,
+      "essay_format": [
+        "mandatory_short_responses",
+        "nus_college_supplements"
+      ],
+      "source": {
+        "title": "My Journey to the Number One Singapore University as an International Student from India",
+        "url": "https://borderless.so/stories/my-journey-to-the-number-one-singapore-university-as-an-international-student-from-india",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "该案例区分 NUS 主申请短答与 NUS College 附加短答：前者覆盖兴趣、课外活动和未来目标，后者必须具体回答为何跨学科学习、为何该课程结构适合自己。最有价值的点是先研究课程，再写匹配，而非仅重复学校声誉。",
+      "strengths": [
+        "清楚区分主申请与学院附加材料",
+        "强调课程研究和跨学科动机",
+        "适合准备 NUSC 的申请者"
+      ],
+      "limitations": [
+        "题目数量和字数为申请者回忆，需以当年申请门户为准",
+        "没有公开完整回答"
+      ],
+      "tags": [
+        "nus_college",
+        "interdisciplinary",
+        "why_program",
+        "short_answers",
+        "international"
+      ]
+    },
+    {
+      "id": "sg-local-law-med-cambridge-ps-guide",
+      "record_type": "community_advice",
+      "universities": [
+        "NUS",
+        "NTU"
+      ],
+      "primary_university": "NUS",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "local_unspecified",
+      "program": "Law / Medicine-oriented guidance",
+      "intake_year": null,
+      "outcome": "self_reported_admitted_to_local_law_and_medical_schools_and_cambridge",
+      "scholarship": null,
+      "evidence_tier": "C+",
+      "quality_score": 86,
+      "featured": false,
+      "essay_format": [
+        "personal_statement",
+        "short_responses"
+      ],
+      "source": {
+        "title": "if you're struggling with your uni personal statement rn... read this",
+        "url": "https://www.reddit.com/r/SGExams/comments/1rljtd4/if_youre_struggling_with_your_uni_personal/",
+        "platform": "Reddit",
+        "source_type": "anonymous_long_form_advice",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "paraphrase_and_link_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "作者自述获本地法学院、医学院及 Cambridge 录取，核心建议是：不要只列成就，要写具体场景、选择过程和思考权衡；每段都追问“这说明了什么”，深挖少数经历，并用清楚自然的语言取代套话。",
+      "strengths": [
+        "把“具体细节”与“思维过程”拆成可操作检查项",
+        "强调深度优于活动数量",
+        "适用于 NUS/NTU 竞争性专业短答"
+      ],
+      "limitations": [
+        "匿名自述，录取结果无法独立核验",
+        "属于跨校通用建议，不能替代学校当年题目要求"
+      ],
+      "tags": [
+        "law",
+        "medicine",
+        "specificity",
+        "reflection",
+        "community",
+        "short_answers"
+      ]
+    },
+    {
+      "id": "ntu-biology-structural-biology-reapplication-2026",
+      "record_type": "admitted_case",
+      "universities": [
+        "NTU"
+      ],
+      "primary_university": "NTU",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "international_reapplication",
+      "program": "Biology with second major in Structural Biology",
+      "intake_year": 2026,
+      "outcome": "admitted",
+      "scholarship": "Singapore Tuition Grant discussed; not an admissions scholarship",
+      "evidence_tier": "B+",
+      "quality_score": 90,
+      "featured": true,
+      "essay_format": [
+        "activity_descriptions",
+        "application_narrative",
+        "research_experience"
+      ],
+      "source": {
+        "title": "Reapplying to NTU after a year: My Experience Applying to Singapore from India",
+        "url": "https://borderless.so/stories/reapplying-to-ntu-after-a-year-my-experience-applying-to-singapore-from-india",
+        "platform": "Borderless",
+        "source_type": "first_person_interview",
+        "published_at": "2026-05-18"
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "普通国际本科路径不一定有独立个人陈述；该录取者通过活动描述和申请材料持续证明生物学方向：实验室观察、研究技能、IB Biology Extended Essay、大学一年成绩和明确的 Structural Biology 课程匹配共同形成证据链。",
+      "strengths": [
+        "与 NTU 普通国际本科不要求 PS 的现实路径相符",
+        "不只列活动名称，而写获得的湿实验、数据分析和文献阅读技能",
+        "重申请材料展示一整年的真实进展",
+        "专业方向具体到结构生物学、药理和药物发现"
+      ],
+      "limitations": [
+        "不是独立个人陈述全文案例",
+        "作者对分数门槛的判断属于个人经验，不应作为保证"
+      ],
+      "tags": [
+        "biology",
+        "structural_biology",
+        "reapplication",
+        "research",
+        "activity_descriptions",
+        "international"
+      ]
+    },
+    {
+      "id": "ntu-rep-full-scholarship-video",
+      "record_type": "public_walkthrough",
+      "universities": [
+        "NTU"
+      ],
+      "primary_university": "NTU",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "local_unspecified",
+      "program": "Renaissance Engineering Programme",
+      "intake_year": null,
+      "outcome": "self_reported_admitted_with_full_scholarship",
+      "scholarship": "Full scholarship",
+      "evidence_tier": "C+",
+      "quality_score": 79,
+      "featured": false,
+      "essay_format": [
+        "application_process_video"
+      ],
+      "source": {
+        "title": "How I got into NTU Renaissance Engineering + Full Scholarship",
+        "url": "https://www.youtube.com/watch?v=fRksPa-9RfU",
+        "platform": "YouTube",
+        "source_type": "public_video",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_only_until_transcript_and_permission_verified",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "公开视频以 NTU Renaissance Engineering 录取与全额奖学金申请过程为主题，结果强，但当前可访问元数据不足以确认其中是否完整展示文书。因此它被归为流程讲解资源，而不是全文范文。",
+      "strengths": [
+        "结果目标明确且竞争性高",
+        "可能帮助理解文书、面试和奖学金材料如何配合"
+      ],
+      "limitations": [
+        "缺少可核验的逐段文书内容",
+        "视频元数据不足，不能把标题等同于官方认证"
+      ],
+      "tags": [
+        "renaissance_engineering",
+        "full_scholarship",
+        "video",
+        "walkthrough"
+      ]
+    },
+    {
+      "id": "nus-ntu-smu-reading-ps-video",
+      "record_type": "public_walkthrough",
+      "universities": [
+        "NUS",
+        "NTU"
+      ],
+      "primary_university": "NTU",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "local_unspecified",
+      "program": null,
+      "intake_year": null,
+      "outcome": "not_independently_verified",
+      "scholarship": null,
+      "evidence_tier": "D+",
+      "quality_score": 68,
+      "featured": false,
+      "essay_format": [
+        "personal_statement_video_readthrough"
+      ],
+      "source": {
+        "title": "NUS, NTU, SMU: Reading our Personal Statements!",
+        "url": "https://www.youtube.com/watch?v=ViBWU041FEM",
+        "platform": "YouTube",
+        "source_type": "public_video",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_only_until_outcome_and_permission_verified",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "视频标题表明创作者逐篇朗读 NUS、NTU、SMU 个人陈述；由于无法从当前公开元数据独立核验录取结果、年份和对应路径，仅作为可能的原文入口，不进入高置信度推荐。",
+      "strengths": [
+        "可能提供接近原始文本的材料",
+        "适合观察同一申请者如何适配不同新加坡大学"
+      ],
+      "limitations": [
+        "录取结果、年份、题目版本和授权状态未核验",
+        "不得将视频内容整篇转录进仓库"
+      ],
+      "tags": [
+        "video",
+        "readthrough",
+        "unverified",
+        "nus",
+        "ntu"
+      ]
+    },
+    {
+      "id": "nus-ntu-smu-top3-offers-lemon8",
+      "record_type": "admitted_case",
+      "universities": [
+        "NUS",
+        "NTU"
+      ],
+      "primary_university": "NTU",
+      "region": "Singapore",
+      "degree_level": "undergraduate",
+      "application_route": "polytechnic",
+      "program": "Business / IT-background application",
+      "intake_year": 2023,
+      "outcome": "self_reported_offers_from_nus_ntu_smu",
+      "scholarship": "SMU merit scholarship stated; no NTU/NUS scholarship stated",
+      "evidence_tier": "C+",
+      "quality_score": 75,
+      "featured": false,
+      "essay_format": [
+        "course_interest_essay",
+        "interview_preparation"
+      ],
+      "source": {
+        "title": "How I got my uni offers from the sg big 3 unis",
+        "url": "https://www.lemon8-app.com/@mishjmm/7237817141561541122?region=sg",
+        "platform": "Lemon8",
+        "source_type": "first_person_post",
+        "published_at": "2023-05-27"
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "作者自述以理工学院 IT 背景获得 NUS、NTU、SMU 录取，建议提前整理活动记录并写清课程兴趣；公开内容更偏流程与面试准备，文书细节较少，因此作为结果与准备清单案例而非高分范文。",
+      "strengths": [
+        "覆盖新加坡三校同轮申请",
+        "提醒把课程兴趣、材料准备和面试答案保持一致"
+      ],
+      "limitations": [
+        "文书文本与逐题分析不足",
+        "录取结果为作者自述"
+      ],
+      "tags": [
+        "polytechnic",
+        "big_three",
+        "course_interest",
+        "interview",
+        "process"
+      ]
+    }
+  ]
+}
