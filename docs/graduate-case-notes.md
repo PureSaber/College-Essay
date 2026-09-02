@@ -1,8 +1,8 @@
 # 港新研究生申请文书要求、案例与拆解
 
-> 自动生成自 `data/graduate-catalog.json`。请勿直接编辑本文件。数据版本：`1.0.0`；最后更新：`2026-08-29`。
+> 自动生成自 `data/graduate-catalog.json`。请勿直接编辑本文件。数据版本：`1.1.0`；最后更新：`2026-09-02`。
 
-当前收录 **36 条研究生文书记录**，其中 **17 条重点记录**、**4 条公开录取案例**。`quality_score` 是策展优先级，不是大学官方文书分数。
+当前收录 **39 条研究生文书记录**，其中 **19 条重点记录**、**7 条公开录取案例**。`quality_score` 是策展优先级，不是大学官方文书分数。
 
 研穵生公开材料中，官方题目与格式要求远多于“完整文书 + 可核验录取结果”。因此本页将官方要求、录取案例和社区经验分开标注；不会因为来源自称“成功范文”就提高证据等级。
 
@@ -25,7 +25,9 @@
 | HKUST | [`hkust-iip-supervisor-sop-curriculum`](#hkust-iip-supervisor-sop-curriculum) | 研究型硕博 | 官方要求 | statement_of_purpose, proposed_curriculum, supervisor_endorsement | A | 97 |
 | NUS | [`nus-cs-phd-mandatory-sop`](#nus-cs-phd-mandatory-sop) | 博士 | 官方要求 | statement_of_purpose, cv | A | 97 |
 | NTU | [`ntu-msba-admitted-sop-two-questions-2020`](#ntu-msba-admitted-sop-two-questions-2020) | 授课型硕士 | 录取案例 | statement_of_purpose, recommendation_letters, interview | B+ | 96 |
-| HKU | [`hku-mfin-alumna-personal-statement-advice`](#hku-mfin-alumna-personal-statement-advice) | 授课型硕士 | 录取案例 | personal_statement | B+ | 91 |
+| CUHK | [`cuhk-anthropology-hkpfs-project-fit-application`](#cuhk-anthropology-hkpfs-project-fit-application) | 博士 | 录取案例 | application_statement, intended_research_project | B+ | 94 |
+| NTU | [`ntu-nanyang-mba-apec-scholar-essay-case`](#ntu-nanyang-mba-apec-scholar-essay-case) | MBA / 专业管理项目 | 录取案例 | application_essay, scholarship_essay | B+ | 93 |
+| HKU | [`hku-mfin-current-student-personal-statement-advice`](#hku-mfin-current-student-personal-statement-advice) | 授课型硕士 | 录取案例 | personal_statement | B+ | 92 |
 | NTU | [`ntu-phd-full-scholarship-authentic-sop`](#ntu-phd-full-scholarship-authentic-sop) | 博士 | 录取案例 | statement_of_purpose, brief_project_proposals, interview | B | 91 |
 
 ## 可核验程度较高的录取案例
@@ -33,8 +35,11 @@
 | 学校 | 案例 | 项目 | 结果 | 证据 | 策展分 |
 |---|---|---|---|---:|---:|
 | NTU | [`ntu-msba-admitted-sop-two-questions-2020`](#ntu-msba-admitted-sop-two-questions-2020) | MSc in Business Analytics | admitted | B+ | 96 |
-| HKU | [`hku-mfin-alumna-personal-statement-advice`](#hku-mfin-alumna-personal-statement-advice) | Master of Finance | admitted_and_graduated | B+ | 91 |
+| CUHK | [`cuhk-anthropology-hkpfs-project-fit-application`](#cuhk-anthropology-hkpfs-project-fit-application) | PhD in Anthropology | admitted_with_hkpfs | B+ | 94 |
+| NTU | [`ntu-nanyang-mba-apec-scholar-essay-case`](#ntu-nanyang-mba-apec-scholar-essay-case) | Nanyang MBA | admitted_with_full_scholarship | B+ | 93 |
+| HKU | [`hku-mfin-current-student-personal-statement-advice`](#hku-mfin-current-student-personal-statement-advice) | Master of Finance | admitted_and_enrolled | B+ | 92 |
 | NTU | [`ntu-phd-full-scholarship-authentic-sop`](#ntu-phd-full-scholarship-authentic-sop) | PhD programme | admitted_with_full_scholarship | B | 91 |
+| NUS | [`nus-international-business-law-heartfelt-sop`](#nus-international-business-law-heartfelt-sop) | Master's in International Business Law | admitted_and_graduated | B | 87 |
 | NUS | [`nus-mcomp-cross-disciplinary-admit-2026`](#nus-mcomp-cross-disciplinary-admit-2026) | Master of Computing | admitted | C+ | 84 |
 
 ## 按学校导航
@@ -47,7 +52,7 @@
 | [`hku-arts-phd-mphil-proposal-specifications`](#hku-arts-phd-mphil-proposal-specifications) ⭐ | 研究型硕博 | 官方要求 | Faculty of Arts MPhil / PhD | 当前页面 | A | 98 |
 | [`hku-msc-cs-personal-statement-optional`](#hku-msc-cs-personal-statement-optional) | 授课型硕士 | 官方例外 / 可选或替代材料 | MSc in Computer Science | 当前页面 | A | 93 |
 | [`hku-maes-personal-statement-writing-sample`](#hku-maes-personal-statement-writing-sample) | 授课型硕士 | 官方要求 | MA in English Studies | 特定申请轮次 | A- | 92 |
-| [`hku-mfin-alumna-personal-statement-advice`](#hku-mfin-alumna-personal-statement-advice) ⭐ | 授课型硕士 | 录取案例 | Master of Finance | 案例记录 | B+ | 91 |
+| [`hku-mfin-current-student-personal-statement-advice`](#hku-mfin-current-student-personal-statement-advice) ⭐ | 授课型硕士 | 录取案例 | Master of Finance | 案例记录 | B+ | 92 |
 
 ### HKUST
 
@@ -67,6 +72,7 @@
 | [`cuhk-chinese-phd-proposal-ps-writing-sample`](#cuhk-chinese-phd-proposal-ps-writing-sample) ⭐ | 博士 | 官方要求 | PhD in Chinese Language and Literature | 当前页面 | A | 99 |
 | [`cuhk-law-mphil-research-plan-personal-statement`](#cuhk-law-mphil-research-plan-personal-statement) ⭐ | 研究型硕士 / MPhil | 官方要求 | MPhil in Laws | 当前页面 | A | 98 |
 | [`cuhk-phd-proposal-ten-questions`](#cuhk-phd-proposal-ten-questions) ⭐ | 博士 | 官方写作指导 | PhD research proposal | 当前页面 | A- | 97 |
+| [`cuhk-anthropology-hkpfs-project-fit-application`](#cuhk-anthropology-hkpfs-project-fit-application) ⭐ | 博士 | 录取案例 | PhD in Anthropology | 案例记录 | B+ | 94 |
 | [`cuhk-psychology-ma-400word-personal-statement`](#cuhk-psychology-ma-400word-personal-statement) | 授课型硕士 | 官方要求 | MA in Psychology | 当前页面 | A | 94 |
 | [`cuhk-sociology-ma-500word-personal-statement`](#cuhk-sociology-ma-500word-personal-statement) | 授课型硕士 | 官方要求 | MA in Sociology | 当前页面 | A | 94 |
 | [`cuhk-social-work-400-500word-personal-statement`](#cuhk-social-work-400-500word-personal-statement) | 授课型硕士 | 官方要求 | Taught postgraduate Social Work programmes | 当前页面 | A | 93 |
@@ -85,6 +91,7 @@
 | [`nus-history-coursework-ps-writing-sample`](#nus-history-coursework-ps-writing-sample) | 授课型硕士 | 官方要求 | History Graduate Diploma / Master's programmes | 当前页面 | A | 95 |
 | [`nus-statistics-msc-no-ps-required`](#nus-statistics-msc-no-ps-required) | 授课型硕士 | 官方例外 / 可选或替代材料 | MSc in Statistics | 当前页面 | A | 95 |
 | [`nus-sustainable-healthcare-300word-sop`](#nus-sustainable-healthcare-300word-sop) | 授课型硕士 | 官方要求 | MSc in Sustainable Healthcare | 特定申请轮次 | A | 94 |
+| [`nus-international-business-law-heartfelt-sop`](#nus-international-business-law-heartfelt-sop) | 授课型硕士 | 录取案例 | Master's in International Business Law | 案例记录 | B | 87 |
 | [`nus-mcomp-cross-disciplinary-admit-2026`](#nus-mcomp-cross-disciplinary-admit-2026) | 授课型硕士 | 录取案例 | Master of Computing | 案例记录 | C+ | 84 |
 | [`nus-postgraduate-sop-research-cv-community`](#nus-postgraduate-sop-research-cv-community) | 研究型硕博 | 社区经验 | NUS postgraduate programmes | 历史材料 | C+ | 77 |
 
@@ -98,6 +105,7 @@
 | [`ntu-nanyang-mba-compulsory-essays`](#ntu-nanyang-mba-compulsory-essays) | MBA / 专业管理项目 | 官方要求 | Nanyang MBA | 当前页面 | A | 96 |
 | [`ntu-psychology-500word-track-personal-statement`](#ntu-psychology-500word-track-personal-statement) | 授课型硕士 | 官方要求 | MSc in Psychology | 当前页面 | A | 96 |
 | [`ntu-chinese-medicine-500word-sop`](#ntu-chinese-medicine-500word-sop) | 授课型硕士 | 官方要求 | MSc in Chinese Medicine | 当前页面 | A | 95 |
+| [`ntu-nanyang-mba-apec-scholar-essay-case`](#ntu-nanyang-mba-apec-scholar-essay-case) ⭐ | MBA / 专业管理项目 | 录取案例 | Nanyang MBA | 历史材料 | B+ | 93 |
 | [`ntu-phd-full-scholarship-authentic-sop`](#ntu-phd-full-scholarship-authentic-sop) ⭐ | 博士 | 录取案例 | PhD programme | 历史材料 | B | 91 |
 
 ## 详细记录
@@ -242,37 +250,37 @@ HKU 英语研究文学硕士在 2025–26 轮次要求个人陈述、学术写�
 
 ---
 
-### hku-mfin-alumna-personal-statement-advice
+### hku-mfin-current-student-personal-statement-advice
 
 - **记录类型：** 录取案例
 - **研究生路径：** 授课型硕士
-- **申请路径：** official_alumna_application_advice
+- **申请路径：** official_current_student_application_advice
 - **专业 / 项目：** Master of Finance
-- **申请轮次：** 未公开
+- **申请轮次：** Class of 2025
 - **要求状态：** 案例记录
-- **结果：** admitted_and_graduated
+- **结果：** admitted_and_enrolled
 - **奖学金：** 无公开信息
-- **证据等级 / 策展分：** B+ / 91
+- **证据等级 / 策展分：** B+ / 92
 - **文书组件：** personal_statement
 - **原始来源：** [Qishan Gong shares her HKU Master of Finance experience](https://www.linkedin.com/posts/hkubs-masters_%E6%B8%AF%E5%A4%A7%E7%B6%93%E7%AE%A1%E5%AD%B8%E9%99%A2-hku-hkufbe-activity-7302538286206459905-cDv0)（HKU Business School — Masters）
 - **版权处理：** link_and_original_analysis_only；不在仓库镜像第三方全文
 
 **摘要与拆解**
 
-HKU 商学院校友在官方渠道建议，个人陈述应把学术背景、职业经历与职业目标进行定制化连接，并体现对行业趋势的理解。案例价值不在于完整原文，而在于学校渠道公开了被录取者认为有效的内容取舍。
+HKU 商学院官方账号采访了金融硕士 2025 届在读生 Qishan Gong。她建议在个人陈述中把学术背景、职业经历与职业目标进行定制化连接，并用对行业趋势的理解和相关判断补充履历之外的信息。
 
 **值得学习**
 
-- 经历必须被解释为下一阶段学习目标的因果证据，而不只是履历复述
-- 项目匹配应连接具体职业方向和行业问题
-- 行业认知能把“为什么读金融”从泛化兴趣推进到可验证判断
+- 把学术和职业经历解释为下一阶段目标的因果证据，而不是复述简历
+- 项目匹配连接具体职业方向、课程用途和所处行业
+- 以行业趋势和相关判断证明申请者对目标领域已有主动了解
 
 **局限与风险**
 
-- 来源没有公开实际提交的个人陈述全文或逐段结构
-- 属于校友经验，不能视为统一评分标准或录取保证
+- 来源没有公开实际提交的个人陈述全文、逐段结构或完整申请背景
+- 这是在读生的回顾性建议，不能视为统一评分标准或证明个人陈述单独决定录取
 
-**标签：** `finance` `coursework_master` `admitted_case` `career_goals` `industry_awareness`
+**标签：** `finance` `coursework_master` `admitted_case` `personal_statement` `career_alignment` `industry_awareness` `current_student`
 
 ---
 
@@ -583,6 +591,40 @@ CUHK 官方院系渠道把博士研究计划拆成十类问题：研究要做什
 - LinkedIn 帖子不会替代具体项目的字数、语言和格式要求
 
 **标签：** `phd` `research_proposal` `research_gap` `methodology` `timeline` `contribution`
+
+---
+
+### cuhk-anthropology-hkpfs-project-fit-application
+
+- **记录类型：** 录取案例
+- **研究生路径：** 博士
+- **申请路径：** official_hkpfs_student_story
+- **专业 / 项目：** PhD in Anthropology
+- **申请轮次：** 未公开
+- **要求状态：** 案例记录
+- **结果：** admitted_with_hkpfs
+- **奖学金：** Hong Kong PhD Fellowship Scheme (HKPFS)
+- **证据等级 / 策展分：** B+ / 94
+- **文书组件：** application_statement, intended_research_project
+- **原始来源：** [Unlocking Opportunities: Upholding an Exceptional Learning Environment](https://www.gs.cuhk.edu.hk/pg-student-life/unlocking-opportunities-upholding-exceptional-learning-environment)（CUHK Graduate School）
+- **版权处理：** link_and_original_analysis_only；不在仓库镜像第三方全文
+
+**摘要与拆解**
+
+CUHK 研究院官方故事记录了意大利申请者 Gabriella Angelini 获录取并成为人类学博士 HKPFS 得主。她先以研究方向和导师匹配筛选项目，再让优异成绩、语言能力、对人类学的长期兴趣与拟研究的多元文化家庭问题在申请中形成一致证据链。
+
+**值得学习**
+
+- 先从研究问题和导师匹配出发选择项目，而不是泛泛依赖学校声誉
+- 把既往学术表现、语言准备、学科热情与拟开展的研究项目连接成连续研究路径
+- CUHK 官方学生故事同时核验了博士项目身份与 HKPFS 结果
+
+**局限与风险**
+
+- 来源没有公开完整申请陈述、研究计划或具体申请轮次
+- 录取与 HKPFS 结果不能证明文书是唯一或决定性因素
+
+**标签：** `anthropology` `phd` `hkpfs` `supervisor_fit` `research_project` `international`
 
 ---
 
@@ -1030,6 +1072,40 @@ NUS 可持续医疗理学硕士在 2026–27 轮次要求不超过 300 词的 SO
 
 ---
 
+### nus-international-business-law-heartfelt-sop
+
+- **记录类型：** 录取案例
+- **研究生路径：** 授课型硕士
+- **申请路径：** first_person_professional_interview
+- **专业 / 项目：** Master's in International Business Law
+- **申请轮次：** 未公开
+- **要求状态：** 案例记录
+- **结果：** admitted_and_graduated
+- **奖学金：** 无公开信息
+- **证据等级 / 策展分：** B / 87
+- **文书组件：** statement_of_purpose
+- **原始来源：** [In Conversation With: Namrata Pahwa, Advocate — Fashion and Entertainment Law](https://superlawyer.in/in-conversation-with-namrata-pahwa-advocate-practicing-fashion-and-entertainment-laws-and-also-featured-in-the-wipf-powerful-women-in-ip-2021)（SuperLawyer）
+- **版权处理：** link_and_original_analysis_only；不在仓库镜像第三方全文
+
+**摘要与拆解**
+
+法律从业者 Namrata Pahwa 在具名职业访谈中确认完成 NUS International Business Law 硕士，并回顾自己以较强个人投入撰写 SOP。该来源能核验项目结果和 SOP 的存在，但没有披露题目、结构或原文，因此只作为 B 级非重点案例。
+
+**值得学习**
+
+- 具名第一人称访谈同时说明了 NUS 项目、完成结果和 SOP 材料
+- 提醒申请者让真实选择理由和个人判断进入文书，而不是只使用通用模板
+- 将 SOP 放在整体审查中理解，没有把单篇文书与其他条件割裂
+
+**局限与风险**
+
+- 来源未公开 SOP 题目、段落结构、文本节选、申请年份或完整背景
+- 申请者对 SOP 作用的判断属于个人归因，不能当作招生委员会证据
+
+**标签：** `law` `international_business_law` `coursework_master` `statement_of_purpose` `first_person_interview` `holistic_review`
+
+---
+
 ### nus-mcomp-cross-disciplinary-admit-2026
 
 - **记录类型：** 录取案例
@@ -1301,6 +1377,40 @@ NTU 中医学理学硕士要求少于 500 词的 SOP，说明申请动机、职�
 - 页面对应具体项目，不能外推至 NTU 其他生命科学硕士
 
 **标签：** `chinese_medicine` `coursework_master` `statement_of_purpose` `500_words` `career_goals`
+
+---
+
+### ntu-nanyang-mba-apec-scholar-essay-case
+
+- **记录类型：** 录取案例
+- **研究生路径：** MBA / 专业管理项目
+- **申请路径：** official_apec_scholar_story
+- **专业 / 项目：** Nanyang MBA
+- **申请轮次：** 2020
+- **要求状态：** 历史材料
+- **结果：** admitted_with_full_scholarship
+- **奖学金：** APEC Scholarship covering the full cost of the one-year full-time Nanyang MBA
+- **证据等级 / 策展分：** B+ / 93
+- **文书组件：** application_essay, scholarship_essay
+- **原始来源：** [APEC Scholar a step closer to becoming a change-maker](https://blogs.ntu.edu.sg/nbsgradstudies/2020/10/14/apec-scholar-a-step-closer-to-becoming-a-change-maker/)（Nanyang Business School Graduate Studies Blog）
+- **版权处理：** link_and_original_analysis_only；不在仓库镜像第三方全文
+
+**摘要与拆解**
+
+NTU 南洋商学院官方故事记录了菲律宾工程师 Eddie R. Diong-an Jr. 获 Nanyang MBA 录取及每年仅一名、覆盖一年全日制项目全部费用的 APEC Scholarship。他把技术岗位到商业训练的转向，与通过创业、就业和政策产生社会影响的目标连接起来，并明确把申请短文视为讲清个人故事和奖学金理由的核心媒介。
+
+**值得学习**
+
+- 以工程职业经历、经济约束和社会影响目标构成清晰而可核验的申请主线
+- 申请短文不仅讲经历，还需要论证为何本人值得获得竞争性奖学金
+- 学校官方来源同时核验项目身份、全额奖学金强度和申请者本人建议
+
+**局限与风险**
+
+- 来源没有公开当年题目、完整短文或逐段结构
+- MBA 录取和奖学金还受 GMAT、履历、面试及其他材料影响，不能只归因于文书
+
+**标签：** `mba` `apec_scholarship` `full_scholarship` `application_essay` `social_impact` `career_transition`
 
 ---
 

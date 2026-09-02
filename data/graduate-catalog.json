@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "last_updated": "2026-08-29",
+  "version": "1.1.0",
+  "last_updated": "2026-09-02",
   "scope": {
     "regions": [
       "Hong Kong",
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "id": "hku-mfin-alumna-personal-statement-advice",
+      "id": "hku-mfin-current-student-personal-statement-advice",
       "record_type": "admitted_case",
       "universities": [
         "HKU"
@@ -250,14 +250,14 @@
       "region": "Hong Kong",
       "degree_level": "graduate",
       "programme_type": "coursework_master",
-      "application_route": "official_alumna_application_advice",
+      "application_route": "official_current_student_application_advice",
       "program": "Master of Finance",
-      "cycle": null,
+      "cycle": "Class of 2025",
       "requirement_status": "not_applicable",
-      "outcome": "admitted_and_graduated",
+      "outcome": "admitted_and_enrolled",
       "scholarship": null,
       "evidence_tier": "B+",
-      "quality_score": 91,
+      "quality_score": 92,
       "featured": true,
       "document_types": [
         "personal_statement"
@@ -266,7 +266,7 @@
         "title": "Qishan Gong shares her HKU Master of Finance experience",
         "url": "https://www.linkedin.com/posts/hkubs-masters_%E6%B8%AF%E5%A4%A7%E7%B6%93%E7%AE%A1%E5%AD%B8%E9%99%A2-hku-hkufbe-activity-7302538286206459905-cDv0",
         "platform": "HKU Business School — Masters",
-        "source_type": "official_alumna_interview",
+        "source_type": "official_current_student_interview",
         "published_at": null
       },
       "copyright": {
@@ -274,22 +274,24 @@
         "policy": "link_and_original_analysis_only",
         "license": "source retains copyright"
       },
-      "summary_zh": "HKU 商学院校友在官方渠道建议，个人陈述应把学术背景、职业经历与职业目标进行定制化连接，并体现对行业趋势的理解。案例价值不在于完整原文，而在于学校渠道公开了被录取者认为有效的内容取舍。",
+      "summary_zh": "HKU 商学院官方账号采访了金融硕士 2025 届在读生 Qishan Gong。她建议在个人陈述中把学术背景、职业经历与职业目标进行定制化连接，并用对行业趋势的理解和相关判断补充履历之外的信息。",
       "strengths": [
-        "经历必须被解释为下一阶段学习目标的因果证据，而不只是履历复述",
-        "项目匹配应连接具体职业方向和行业问题",
-        "行业认知能把“为什么读金融”从泛化兴趣推进到可验证判断"
+        "把学术和职业经历解释为下一阶段目标的因果证据，而不是复述简历",
+        "项目匹配连接具体职业方向、课程用途和所处行业",
+        "以行业趋势和相关判断证明申请者对目标领域已有主动了解"
       ],
       "limitations": [
-        "来源没有公开实际提交的个人陈述全文或逐段结构",
-        "属于校友经验，不能视为统一评分标准或录取保证"
+        "来源没有公开实际提交的个人陈述全文、逐段结构或完整申请背景",
+        "这是在读生的回顾性建议，不能视为统一评分标准或证明个人陈述单独决定录取"
       ],
       "tags": [
         "finance",
         "coursework_master",
         "admitted_case",
-        "career_goals",
-        "industry_awareness"
+        "personal_statement",
+        "career_alignment",
+        "industry_awareness",
+        "current_student"
       ]
     },
     {
@@ -1941,6 +1943,167 @@
         "admitted_case",
         "authenticity",
         "project_proposal"
+      ]
+    },
+    {
+      "id": "cuhk-anthropology-hkpfs-project-fit-application",
+      "record_type": "admitted_case",
+      "universities": [
+        "CUHK"
+      ],
+      "primary_university": "CUHK",
+      "region": "Hong Kong",
+      "degree_level": "graduate",
+      "programme_type": "phd",
+      "application_route": "official_hkpfs_student_story",
+      "program": "PhD in Anthropology",
+      "cycle": null,
+      "requirement_status": "not_applicable",
+      "outcome": "admitted_with_hkpfs",
+      "scholarship": "Hong Kong PhD Fellowship Scheme (HKPFS)",
+      "evidence_tier": "B+",
+      "quality_score": 94,
+      "featured": true,
+      "document_types": [
+        "application_statement",
+        "intended_research_project"
+      ],
+      "source": {
+        "title": "Unlocking Opportunities: Upholding an Exceptional Learning Environment",
+        "url": "https://www.gs.cuhk.edu.hk/pg-student-life/unlocking-opportunities-upholding-exceptional-learning-environment",
+        "platform": "CUHK Graduate School",
+        "source_type": "official_student_story",
+        "published_at": null
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "CUHK 研究院官方故事记录了意大利申请者 Gabriella Angelini 获录取并成为人类学博士 HKPFS 得主。她先以研究方向和导师匹配筛选项目，再让优异成绩、语言能力、对人类学的长期兴趣与拟研究的多元文化家庭问题在申请中形成一致证据链。",
+      "strengths": [
+        "先从研究问题和导师匹配出发选择项目，而不是泛泛依赖学校声誉",
+        "把既往学术表现、语言准备、学科热情与拟开展的研究项目连接成连续研究路径",
+        "CUHK 官方学生故事同时核验了博士项目身份与 HKPFS 结果"
+      ],
+      "limitations": [
+        "来源没有公开完整申请陈述、研究计划或具体申请轮次",
+        "录取与 HKPFS 结果不能证明文书是唯一或决定性因素"
+      ],
+      "tags": [
+        "anthropology",
+        "phd",
+        "hkpfs",
+        "supervisor_fit",
+        "research_project",
+        "international"
+      ]
+    },
+    {
+      "id": "nus-international-business-law-heartfelt-sop",
+      "record_type": "admitted_case",
+      "universities": [
+        "NUS"
+      ],
+      "primary_university": "NUS",
+      "region": "Singapore",
+      "degree_level": "graduate",
+      "programme_type": "coursework_master",
+      "application_route": "first_person_professional_interview",
+      "program": "Master's in International Business Law",
+      "cycle": null,
+      "requirement_status": "not_applicable",
+      "outcome": "admitted_and_graduated",
+      "scholarship": null,
+      "evidence_tier": "B",
+      "quality_score": 87,
+      "featured": false,
+      "document_types": [
+        "statement_of_purpose"
+      ],
+      "source": {
+        "title": "In Conversation With: Namrata Pahwa, Advocate — Fashion and Entertainment Law",
+        "url": "https://superlawyer.in/in-conversation-with-namrata-pahwa-advocate-practicing-fashion-and-entertainment-laws-and-also-featured-in-the-wipf-powerful-women-in-ip-2021",
+        "platform": "SuperLawyer",
+        "source_type": "first_person_professional_interview",
+        "published_at": "2022-07-01"
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "法律从业者 Namrata Pahwa 在具名职业访谈中确认完成 NUS International Business Law 硕士，并回顾自己以较强个人投入撰写 SOP。该来源能核验项目结果和 SOP 的存在，但没有披露题目、结构或原文，因此只作为 B 级非重点案例。",
+      "strengths": [
+        "具名第一人称访谈同时说明了 NUS 项目、完成结果和 SOP 材料",
+        "提醒申请者让真实选择理由和个人判断进入文书，而不是只使用通用模板",
+        "将 SOP 放在整体审查中理解，没有把单篇文书与其他条件割裂"
+      ],
+      "limitations": [
+        "来源未公开 SOP 题目、段落结构、文本节选、申请年份或完整背景",
+        "申请者对 SOP 作用的判断属于个人归因，不能当作招生委员会证据"
+      ],
+      "tags": [
+        "law",
+        "international_business_law",
+        "coursework_master",
+        "statement_of_purpose",
+        "first_person_interview",
+        "holistic_review"
+      ]
+    },
+    {
+      "id": "ntu-nanyang-mba-apec-scholar-essay-case",
+      "record_type": "admitted_case",
+      "universities": [
+        "NTU"
+      ],
+      "primary_university": "NTU",
+      "region": "Singapore",
+      "degree_level": "graduate",
+      "programme_type": "mba_or_executive",
+      "application_route": "official_apec_scholar_story",
+      "program": "Nanyang MBA",
+      "cycle": "2020",
+      "requirement_status": "historical",
+      "outcome": "admitted_with_full_scholarship",
+      "scholarship": "APEC Scholarship covering the full cost of the one-year full-time Nanyang MBA",
+      "evidence_tier": "B+",
+      "quality_score": 93,
+      "featured": true,
+      "document_types": [
+        "application_essay",
+        "scholarship_essay"
+      ],
+      "source": {
+        "title": "APEC Scholar a step closer to becoming a change-maker",
+        "url": "https://blogs.ntu.edu.sg/nbsgradstudies/2020/10/14/apec-scholar-a-step-closer-to-becoming-a-change-maker/",
+        "platform": "Nanyang Business School Graduate Studies Blog",
+        "source_type": "official_scholar_profile",
+        "published_at": "2020-10-14"
+      },
+      "copyright": {
+        "full_text_in_repo": false,
+        "policy": "link_and_original_analysis_only",
+        "license": "source retains copyright"
+      },
+      "summary_zh": "NTU 南洋商学院官方故事记录了菲律宾工程师 Eddie R. Diong-an Jr. 获 Nanyang MBA 录取及每年仅一名、覆盖一年全日制项目全部费用的 APEC Scholarship。他把技术岗位到商业训练的转向，与通过创业、就业和政策产生社会影响的目标连接起来，并明确把申请短文视为讲清个人故事和奖学金理由的核心媒介。",
+      "strengths": [
+        "以工程职业经历、经济约束和社会影响目标构成清晰而可核验的申请主线",
+        "申请短文不仅讲经历，还需要论证为何本人值得获得竞争性奖学金",
+        "学校官方来源同时核验项目身份、全额奖学金强度和申请者本人建议"
+      ],
+      "limitations": [
+        "来源没有公开当年题目、完整短文或逐段结构",
+        "MBA 录取和奖学金还受 GMAT、履历、面试及其他材料影响，不能只归因于文书"
+      ],
+      "tags": [
+        "mba",
+        "apec_scholarship",
+        "full_scholarship",
+        "application_essay",
+        "social_impact",
+        "career_transition"
       ]
     }
   ]
